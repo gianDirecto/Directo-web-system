@@ -35,7 +35,6 @@ CREATE TABLE IF NOT EXISTS User_Course (
         ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
--- Sample courses (run this SQL file once)
 INSERT INTO Course (name, description, course_code, status)
 SELECT 'Information Technology',
        'Study of computer systems, software, and technology',
